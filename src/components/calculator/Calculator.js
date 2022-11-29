@@ -1,6 +1,6 @@
 import { PureComponent } from 'react';
 import './calculator.css';
-import Button from './button/Button';
+import Button from '../button/Button';
 
 class Calculator extends PureComponent {
   render() {
