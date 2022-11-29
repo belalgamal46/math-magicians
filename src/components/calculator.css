@@ -1,0 +1,23 @@
+.number-holder {
+  background-color: #858694;
+  color: white;
+  padding: 25px;
+  text-align: right;
+}
+
+.buttons-grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: repeat(5, minmax(20px, 1fr));
+  row-gap: 2px;
+}
+
+.buttons-container {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(50px, 1fr));
+  column-gap: 2px;
+}
+
+.grid-1-to-3 {
+  grid-column: 1 / 3;
+}
