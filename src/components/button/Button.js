@@ -4,11 +4,11 @@ import PropTypes from 'prop-types';
 
 class Button extends PureComponent {
   render() {
-    const { text } = this.props;
+    const { text, handleClick } = this.props;
     const grid = text === '0' ? 'grid-1-to-3' : '';
     const thirdChildBackground = text === '=' ? 'back-ground-color-orange' : '';
     return (
-      <button type="button" className={`btn ${grid} ${thirdChildBackground}`}>
+      <button type="button" className={`btn ${grid} ${thirdChildBackground}`} onClick={handleClick}>
         {text}
       </button>
     );
@@ -17,6 +17,7 @@ class Button extends PureComponent {
 
 Button.propTypes = {
   text: PropTypes.string.isRequired,
+  handleClick: PropTypes.func.isRequired,
 };
 
 export default Button;
