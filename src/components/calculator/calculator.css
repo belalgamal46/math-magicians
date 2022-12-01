@@ -1,8 +1,12 @@
-.number-holder {
+.result-screen {
   background-color: #858694;
   color: white;
   padding: 25px;
   text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  column-gap: 10px;
 }
 
 .buttons-grid-container {

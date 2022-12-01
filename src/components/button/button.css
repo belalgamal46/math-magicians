@@ -4,10 +4,19 @@
   border: none;
   font-weight: bold;
   font-size: 14px;
+  cursor: pointer;
+}
+
+.btn:active {
+  background-color: #c9c9c9;
 }
 
 .btn:nth-child(4) {
   background-color: #f5913e;
+}
+
+.btn:nth-child(4):active {
+  background-color: #c9c9c9;
 }
 
 .back-ground-color-orange {
