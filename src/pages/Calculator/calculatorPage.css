@@ -1,0 +1,17 @@
+.calculator-section {
+  display: flex;
+  padding: 20px;
+  padding-right: 10rem;
+  height: 82.5vh;
+  margin-top: 70px;
+}
+
+.calculator-section h1 {
+  flex: 2;
+  font-size: 2rem;
+}
+
+.calculator {
+  flex: 1 1;
+  margin-top: 5rem;
+}

@@ -23,3 +23,8 @@
   font-size: 1.2rem;
   padding: 10px;
 }
+
+.nav-items li a {
+  text-decoration: none;
+  color: black;
+}
