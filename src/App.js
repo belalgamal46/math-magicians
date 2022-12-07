@@ -1,11 +1,16 @@
+import { Route, Routes } from 'react-router-dom';
 import './app.css';
-import Calculator from './components/calculator/Calculator';
+import Home from './pages/Home/Home';
+import Calculator from './pages/Calculator';
+import Quote from './pages/Quote';
 
 function App() {
   return (
-    <div className="calculator-container">
-      <Calculator />
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/calculator" element={<Calculator />} />
+      <Route path="/quote" element={<Quote />} />
+    </Routes>
   );
 }
 
