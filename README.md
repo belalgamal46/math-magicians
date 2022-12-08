@@ -44,6 +44,10 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://math-magicians-qyao.onrender.com)
+
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
@@ -62,6 +66,7 @@ Clone this repository to your desired folder:
 
 ```
   cd "to where you want to install your project"
+
   git clone git@github.com:myaccount/my-project.git
 ```
 

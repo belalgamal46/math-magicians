@@ -5,16 +5,13 @@ import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <>
-      <header>
-        <Navbar />
-      </header>
-      <Routes>
+    <Routes>
+      <Route element={<Navbar />}>
         <Route path="/" element={<HomePage />} />
-        <Route path="/calculator" element={<CalculatorPage />} />
-        <Route path="/quote" element={<QuotePage />} />
-      </Routes>
-    </>
+        <Route path="calculator" element={<CalculatorPage />} />
+        <Route path="quote" element={<QuotePage />} />
+      </Route>
+    </Routes>
   );
 }
 
